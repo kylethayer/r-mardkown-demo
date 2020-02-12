@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r echo=F}
+```{r echo=FALSE}
 source("analysis.R")
 
 ```
@@ -24,3 +24,10 @@ Here is a calculation:
 
 
 The county with the highest per capita college education is: `r most_college`.
+
+
+```{r}
+example_plot
+```
+
+test
