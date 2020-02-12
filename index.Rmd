@@ -9,6 +9,11 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r echo=F}
+source("analysis.R")
+
+```
+
 ## R Markdown
 This is a demo of R Markdown
 
@@ -16,3 +21,6 @@ Here is a calculation:
 ```{r}
 2 + 2
 ```
+
+
+The county with the highest per capita college education is: `r most_college`.
